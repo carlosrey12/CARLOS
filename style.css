@@ -1,0 +1,118 @@
+nav {
+    background-color: #BDFCFF;
+    color: #143DFF;
+    width:100%;
+    text-align:center;
+    font-family:monospace;
+                }
+  nav a:hover {
+      color: #FFFDFD;
+      font-family:Arial;
+      background-color: #FF67F8;
+        }
+  nav a {
+display: inline-block;
+margin: 1.2px;
+padding: 8px 10px; /* tamaño del boton */
+background-color: #D1B4FF;
+color:  #143DFF; /* color del texto */
+font-family:monospace; /* tipo de texto */
+text-decoration:none; /* para no tener palabras subrayadas */
+transition: background-color 4s, color 4s;
+border-radius: 15px; /* para los bordes de los botones */
+font-size: 1.7em; /* tamaño del texto */       
+         }
+   body {         
+      background-image: url(mini.jpg); 
+      background-size: cover;
+     
+           }
+   section {
+background-color: #9FCBFF;
+color: #000887; /*color de la letra del contenido */
+text-align: justify; /*para justificar el contenido */
+font-family:monospace;
+width: 90%;
+margin: 30px auto;
+margin-top: 20px; /* para separar el texto del contenido del menu */
+padding: 18px; /* margen para el texto */
+border-radius: 40px; /* para los bordes del texto del contenido */
+         }
+.logo h1 {
+font-size: 1em;
+font-family: papyrus;
+          }
+.logo p {
+font-size: 1em;
+font-family: garamond;
+}
+  header {
+color: #FFFFFF; /* color de la letra */
+font-size: 3em;
+background-color: #A016AB;  /* color de fondo */
+ text-align:center; /* alinear texo */
+font-family: Arial; }/* formato de letra */
+
+
+.container-form{
+  background-color: #D1B4FF;
+width: 100%;
+max-width: 1100px;
+margin: auto;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-gap: 50px;
+margin-top: 90px;
+  }
+
+  .container-form h2{  
+    margin-bottom: 15px;
+    font-size: 35px;
+  }
+  .container-form p {
+     font-size: 17px;
+     line-height: 1.6;
+     margin-bottom: 30px;
+  }
+
+  .container-form a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    margin-bottom: 15px;
+    font-weight: 700;
+  }
+
+  .container-form form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+
+  }
+  .container-form form textarea{
+   max-width: 530px;
+   min-width: 530px;
+   min-height: 140px;
+   max-height: 150px;
+  }    
+  .container-form .btn-enviar {
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    background: orange;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer; /*al pasar le cursor se cambia a una manita */
+    transition: all 300ms ease;
+  }
+
+  .container-form .btn-enviar:hover{
+    color: white;
+    background: #A016AB;
+  }
