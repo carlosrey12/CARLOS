@@ -23,7 +23,7 @@ border-radius: 15px; /* para los bordes de los botones */
 font-size: 1.7em; /* tamaño del texto */       
          }
    body {         
-      background-image: url(mini.jpg); 
+      background-image: url(imagenes/mini.jpg); 
       background-size: cover;
      
            }
